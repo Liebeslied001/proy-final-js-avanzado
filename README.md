@@ -17,6 +17,6 @@ Integrantes:
 
 #Git
 - Clonar repositorio
-- Crear ramas
+- Crear ramas 
 - Moverse entre ramas
 - Ver listado de ramas

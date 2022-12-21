@@ -80,6 +80,7 @@ app.controller("formLoginCtrl", ($scope, $http) => {
     }
     console.log(emailInput, 'emilInput')
       $scope.isLoadingLogin = true
+      console.log("asdasd")
       $http.post("http://localhost:9000/api/user/login", $scope.user)
       .then(function(response) {
         $scope.isLoadingLogin = false
